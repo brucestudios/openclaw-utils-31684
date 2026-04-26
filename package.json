@@ -1,0 +1,26 @@
+{
+  "name": "openclaw-skill-gen",
+  "version": "1.0.0",
+  "description": "A CLI tool for generating OpenClaw skill scaffolds",
+  "main": "index.js",
+  "bin": {
+    "openclaw-skill-gen": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "generator",
+    "cli"
+  ],
+  "author": "OpenClaw Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "inquirer": "^9.2.0",
+    "fs-extra": "^11.1.0",
+    "chalk": "^5.2.0"
+  }
+}
